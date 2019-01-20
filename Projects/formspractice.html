@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Forms HTML Practice</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-</head>
-<body>
-    <h1>Register</h1> 
+  </head>
+  <body>
+    <h1>Register</h1>
 
     <form>
-        <label>
-            <input type="text" placeholder="John">
-            <input type="text" placeholder="Smith">
-        </label>
-    </form>
-    <form>
-        <input type="radio">
-        <input type="radio">
-        <input type="radio">
-    </form>
-    <form>
-        <input type="text">
-        <input type="text">
-    </form>
-    <form>
+      <form>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" type="text" placeholder="John" />
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" type="text" placeholder="Smith" />
+      </form>
+      <form>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" />
+        <label for="female">Female</label> <input name="gender" type="radio" />
+        <label for="other">Other</label> <input name="gender" type="radio" />
+      </form>
+      <form>
+          <label for="email"
+        <input type="text" placeholder="Your Email"/>
+        <input type="text" placeholder="Password" />
+      </form>
+      <form>
         <select>
-            <option>January</option>
+          <option>January</option>
         </select>
         <select>
-            <option>1</option>
+          <option>1</option>
         </select>
         <select>
-            <option>1994</option>
+          <option>1994</option>
         </select>
+      </form>
+      <form><input type="checkbox" /></form>
+      <form><input type="Submit" /></form>
     </form>
-    <form>
-        <input type="checkbox">
-    </form>
-    <form>
-        <input type="Submit">
-    </form>
-</body>
+  </body>
 </html>
