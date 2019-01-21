@@ -30,9 +30,11 @@
       />
       <div>
         <label for="male">Male</label>
-        <input name="gender" id="male" type="radio" value="male"/>
-        <label for="female">Female</label> <input name="gender" type="radio" value="female"/>
-        <label for="other">Other</label> <input name="gender" type="radio" value="other"/>
+        <input name="gender" id="male" type="radio" value="male" />
+        <label for="female">Female</label>
+        <input name="gender" type="radio" value="female" />
+        <label for="other">Other</label>
+        <input name="gender" type="radio" value="other" />
       </div>
       <div>
         <label for="email">Email:</label>
@@ -40,15 +42,15 @@
         <label for="password">Password:</label>
         <input
           type="password"
-          id="password"
-          placeholder="Password"
-          minlength="5"
-          maxlength="10"
+          pattern=".{5,10}"
+          required
+          title="5 to 10 characters"
+          placeholder="password"
         />
       </div>
       <div>
         <label for="birthday">Birthday:</label>
-        <select>
+        <select name="month">
           <option disabled selected>Month</option>
           <option>January</option>
           <option>Feburary</option>
@@ -63,7 +65,7 @@
           <option>November</option>
           <option>December</option>
         </select>
-        <select>
+        <select name="day">
           <option disabled selected>Day</option>
           <option>1</option>
           <option>2</option>
@@ -97,7 +99,7 @@
           <option>30</option>
           <option>31</option>
         </select>
-        <select>
+        <select name="year">
           <option disabled selected>Year</option>
           <option>1994</option>
           <option>1995</option>
@@ -131,7 +133,11 @@
         <label for="termsAndConditions"
           >I Agree to The Terms and Conditions</label
         >
-        <input type="checkbox" id="termsAndConditions" />
+        <input
+          name="termsAndConditions"
+          type="checkbox"
+          id="termsAndConditions"
+        />
       </div>
       <input type="Submit" />
     </form>
