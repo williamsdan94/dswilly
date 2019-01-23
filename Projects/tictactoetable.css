@@ -4,21 +4,21 @@ h1 {
 
 table {
   border-collapse: collapse;
-  margin: 0 auto;
+  margin: auto;
   height: 400px;
   width: 400px;
 }
 
-.middleRow{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+.middleRow {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-.middleColumn{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.middleColumn {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
-.middleRowColumn{
-    border: 1px solid black;
+.middleRowColumn {
+  border: 1px solid black;
 }
