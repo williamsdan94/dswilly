@@ -1,34 +1,35 @@
 html {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
-    border: 20px solid #bdc3c7;
-    margin: 3% 20%;
+  border: 20px solid #bdc3c7;
+  margin: 3% 20%;
+  padding: 20px;
 }
 
 h3 {
-    color: #3498db;
-    margin-left: 2.5%;
-    letter-spacing: 2.5px;
+  color: #3498db;
+  margin-left: 2.5%;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
 }
 
 h2 {
-    color: #2c3e50;
-    margin-left: 2.5%;
-    font-weight: 800;
+  color: #2c3e50;
+  margin-left: 2.5%;
+  font-weight: 800;
 }
 
 .border {
-    border-left: 4.5px solid #bdc3c7;
-    padding-left: 4.5px;
+  border-left: 4.5px solid #bdc3c7;
 }
 
 p {
-    margin-left: 2.5%;
+  margin-left: 2.5%;
 }
 
 hr {
-    margin: 0 2.5%;
-    border-color: #2c3e50;
+  margin: 0 2.5%;
+  border-color: #2c3e50;
 }
