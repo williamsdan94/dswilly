@@ -1,13 +1,13 @@
-div{
-    width: 100px;
-    float: left;s
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
 }
 
-#one{
-background-color: red;
+p{
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 1.66%;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
-
-#two{
-    background-color: purple;
-}
-
