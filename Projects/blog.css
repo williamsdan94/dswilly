@@ -23,6 +23,7 @@ h2 {
 
 .border {
   border-left: 4.5px solid #bdc3c7;
+  padding-left: 8px;
 }
 
 p {
