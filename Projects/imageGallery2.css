@@ -14,7 +14,7 @@
 }
 
 .image3 {
-  background-image: url(https://images.unsplash.com/photo-1548347614-7031a4f4f331?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80);
+  background-image: url(https://images.unsplash.com/photo-1548368197-2fdad2455b9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
 }
 
 .image4 {
@@ -39,4 +39,24 @@
 
 .image9 {
   background-image: url(https://images.unsplash.com/photo-1548366969-b1eaaa6e16da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+}
+
+body {
+    padding-top: 70px;
+}
+
+.jumbotron {
+    color: #2c3e50;
+}
+
+.navbar-inverse {
+    background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand{
+    color:white;
 }
